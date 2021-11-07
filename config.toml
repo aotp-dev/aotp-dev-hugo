@@ -3,5 +3,7 @@ languageCode = 'en-us'
 title = 'aotp.dev'
 theme = 'simplog'
 
-
+[params]
+  adobeFontsKitId = "781bee83ac0486d550c87f70bf63b24e307fdc86"
+  colorTheme = "default"
 
