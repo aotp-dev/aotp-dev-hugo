@@ -1,0 +1,7 @@
+baseURL = 'http://aotp.dev/'
+languageCode = 'en-us'
+title = 'aotp.dev'
+theme = 'simplog'
+
+
+
