@@ -50,4 +50,5 @@ disqusShortname =""
   customCSS = "css/custom.css"
   colorTheme = "default"
   twitter = "canadianchris"
+  favicon = "img/favicon.ico"
 
