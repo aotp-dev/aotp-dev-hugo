@@ -4,6 +4,9 @@ title = 'aotp.dev'
 theme = 'simplog'
 
 [params]
+  author = "Chris Saunders"
+  description = "Nerd blogging"
   adobeFontsKitId = "781bee83ac0486d550c87f70bf63b24e307fdc86"
+  customCSS = "css/custom.css"
   colorTheme = "default"
 
