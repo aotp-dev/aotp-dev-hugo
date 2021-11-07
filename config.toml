@@ -2,11 +2,52 @@ baseURL = 'http://aotp.dev/'
 languageCode = 'en-us'
 title = 'aotp.dev'
 theme = 'simplog'
+author = "Chris Saunders"
+description = ""
+copyright = "Copyright © 2021, Chris Saunders"
+googleAnalytics = ""
+disqusShortname =""
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "archives"
+    name = "Archives"
+    url = "/archives"
+    weight = 40
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  archive = "archives"
+
+[services]
+  [services.twitter]
+    disableInlineCSS = true
 
 [params]
-  author = "Chris Saunders"
-  description = "Nerd blogging"
+  subtitle = "a blog about yaml files"
+  description = "Chris blogs about cloud stuff"
   adobeFontsKitId = "781bee83ac0486d550c87f70bf63b24e307fdc86"
   customCSS = "css/custom.css"
   colorTheme = "default"
+  twitter = "canadianchris"
 
